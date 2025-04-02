@@ -1,0 +1,644 @@
+/*
+Theme Name: Zoryana_theme
+Author: Yulia Yablonko
+Description: Consalting
+Version: 1.0.0
+License: Later
+*/
+
+
+body{
+ font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+}
+
+svg {margin: 0 12px;}
+a:link {text-decoration: none;}
+h1 {font-family: Raleway;}
+
+.style_pershemenu { padding-top: 0px; margin-bottom: 0px; }
+.socseti { margin-left: 80px; padding-left: 60px;
+padding-top: 60px;
+}
+
+
+.telefon{margin-top: 60px !important;}
+
+.telefon a {
+    color: #000;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 27px */
+text-align: right;
+}
+
+
+#navbarTogglerDemo01 {
+ font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+}
+
+
+#navbarTogglerDemo01  li{
+padding-left: 10px;
+margin-right: 20px;
+}
+
+.navbar svg {margin: 0 12px;}
+
+
+.zoryana_btn_style{
+display: flex;
+width: 146px;
+height: 30px;
+padding: 10px 80px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 30px;
+background: #000;
+margin-top: 4%;
+}
+
+.zoryana_btn_style span{
+color: #FFF;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 27px */
+}
+
+.zoryana_btn_style2{
+display: flex;
+width: 347px;
+padding: 10px ;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 30px;
+background: #000;
+margin-top: 40px;
+margin-bottom: 80px;
+}
+
+.telefon {
+ text-decoration: none;
+ color: #000;
+}
+
+
+ @media (max-width: 500px) {
+    .big_menu_zoryana_style svg {  display: none;}
+ }
+ @media (min-width: 500px) {
+ .small_menu_zoryana_style{ display: none; }
+   .pershemenu h1{
+        font-size: 28px;
+    }
+    .telefon {padding-right: 0;}
+    .socseti {margin-left: 20px; margin-right: 0; width:100px;}
+    svg {margin: 0 5px;}
+    
+}
+
+@media (min-width:1200px) { 
+    .desktop_version_menu{margin-left: 150px;}
+    .socseti {padding-left: 60px !important;}
+}
+
+@media (min-width:700px) { 
+    .pershemenu h1{
+        font-size: 28px;
+    }
+    .telefon {padding-right: 0; }
+    .socseti {margin-left: 20px; margin-right: 0; }
+    svg {margin: 0 5px;}
+}
+   
+@media (max-width: 500px){ .pershemenu {display: none;}}
+
+
+
+.vidguky {padding-bottom: 20px; padding-top: 30px;}
+
+.blockVidguliv {padding-top: 30px; }
+
+/* Стилі для форми */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Стилі для полів input і textarea */
+input.form-control, textarea.form-control {
+    display: flex;
+    width: 100%;
+    height: 46px;
+    padding: 10px 20px;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 2px solid #000;
+    text-align: center;
+}
+
+/* Стилі для кнопки submit */
+button.btn-dark {
+    display: block;
+    margin: 20px auto;
+}
+/* Стандартні стилі для input та textarea */
+input, textarea {
+  display: flex;
+  width: 482px;
+  height: 46px;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  border: 2px solid #000;
+  
+}
+
+/* Стилі для великих екранів */
+@media (min-width: 1200px) {
+  textarea {
+    height: 265px;
+  }
+
+  label[for="floatingTextarea2"] {
+    text-align: left;
+    align-self: flex-start;
+  }
+}
+
+
+/* Медіа запит для адаптивності */
+@media (max-width: 768px) {
+    input.form-control, textarea.form-control {
+        width: 100%;
+    }
+}
+
+
+form h1 {margin-top: 100px; margin-bottom: 87px; text-align: center;}
+
+.polevvodu {margin: 30px auto;}
+
+.nadislaty {
+    display: flex !important;
+    width: 288px !important;
+    height: 68px !important;
+    padding: 10px 60px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 10px !important;
+    flex-shrink: 0 !important;
+    border-radius: 30px !important;
+    border: 2px solid #000 !important;
+    background: #000 !important;
+}
+
+.nadislaty span {
+    color: #FFF !important;
+    /* H2 Tablet Bold */
+    font-family: Raleway !important;
+    font-size: 28px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: 150% !important; /* 42px */
+}
+
+
+
+.zoryana_btn_style{
+display: flex;
+width: 146px;
+height: 30px;
+padding: 10px 80px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 30px;
+background: #000;
+margin-top: 4%;
+}
+
+.zoryana_btn_style span{
+color: #FFF;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 27px */
+}
+
+.zoryana_btn_style2{
+display: flex;
+width: 347px;
+padding: 10px ;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 30px;
+background: #000;
+margin-top: 40px;
+margin-bottom: 80px;
+}
+
+.zoryana_btn_style2 span{
+color: #FFF;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 27px */
+}
+
+p {
+font-size: 22px;
+font-family: Raleway;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+
+h1 {
+font-family: Raleway;
+font-size: 10em;
+font-style: normal;
+font-weight: 1000;
+line-height: normal;
+padding-top: 60px;
+padding-bottom: 40px;
+}
+
+
+
+.dosyagnennya span{
+font-family: Raleway;
+font-size: 52px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.foto img{ 
+width: 350px;
+height: 350px;
+border-radius: 350px;
+border: 1px solid #000;}
+
+  
+
+  .responsive-image {
+width: 308.638px;
+height: 485.92px;
+flex-shrink: 0;
+    }
+
+    @media (max-width: 768px) {
+      .responsive-image {
+        content: url('/img/imf_mirrow.png');
+         /* Застосовуємо стилі для малих екранів */
+           width: 134.897px;
+           height: 136px;
+          border-radius: 136px;
+        border: 1px solid #000;
+         margin: 0 auto; /* Вирівнювання по центру горизонтально */
+      display: block; /* Потрібно для вирівнювання */
+       }
+      }
+    
+
+   @media (min-width: 769px) {
+      .responsive-image {
+        content: url('/img/photo2.png');
+        width: 308.638px;
+       height: 485.92px;
+       flex-shrink: 0;
+      padding-top: 80px;
+      /* Застосовуємо стилі для великих екранів */
+      }
+    }
+
+.portfolio p {padding-top: 1px; font-size: 20px;}
+
+h3 {
+font-family: Raleway;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 48px */
+}
+
+
+.poslugy li {
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 30px */
+}
+
+.my_oval_botton {
+   display: inline-flex;
+height: 68px;
+padding: 10px 60px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 30px;
+border: 2px solid #000;
+background: #000;
+text-align: center; 
+margin: 0 auto; /* Для вирівнювання по горизонталі */
+  width: fit-content; /* Для того, щоб кнопка займала лише необхідний простір */
+}
+
+
+.my_oval_botton p {
+  color: #FFF;
+  margin: 0;
+/* H2 Bold */
+font-family: Raleway;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 48px */
+text-transform: uppercase;
+
+}
+
+
+
+@media (max-width: 768px)
+{
+    /* Вирівнювання тексту в <footer> залишається без змін */
+  footer h3, footer p{
+    text-align: left;
+  }
+  h1, h2, h3, h4, p , .poslugy, .portfolio, .zoryana_btn_style2, .my_oval_botton {
+    text-align: center;
+  }
+
+.poslugy-list {
+  text-align: center;
+  padding-left: 0; /* Видалення стандартних відступів списку */
+  list-style-type: none; /* Видалення стандартних крапочок списку */
+}
+
+.poslugy-list li {
+  position: relative; /* Для позиціонування псевдоелемента */
+  text-align: center; /* Вирівнювання тексту внутрішньо елемента */
+ 
+  margin-bottom: 10px; /* Простір між елементами списку */
+}
+
+.poslugy-list li::before {
+  content: "\2022"; /* Код символу для крапочки */
+  position: relative;
+
+  left: 0;
+}
+
+.my_oval_botton{
+    
+width: 262px;
+height: 49px;
+padding: 10px 60px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+}
+.my_oval_botton p{
+    color: #FFF;
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 30px */
+}
+
+
+}
+
+@media (max-width: 768px){
+ .zoryana_btn_style2, .my_oval_botton {
+     margin: 0 auto; /* Вирівнювання по центру горизонтально */
+      display: block; /* Потрібно для вирівнювання */
+       }
+}
+.telefon {
+ text-decoration: none;
+ color: #000;
+}
+
+@media (min-width: 1200px) {
+   
+     .telefon svg {margin-left: 40% !important;}
+}
+
+#navbarTogglerDemo01 {
+ font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+}
+
+
+#navbarTogglerDemo01  li{
+padding-left: 10px;
+margin-right: 20px;
+}
+
+.navbar svg {margin: 0 12px;}
+
+
+.zoryana_btn_style{
+display: flex;
+width: 146px;
+height: 30px;
+padding: 10px 80px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 30px;
+background: #000;
+margin-top: 4%;
+}
+
+.zoryana_btn_style span{
+color: #FFF;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 27px */
+}
+
+.zoryana_btn_style2{
+display: flex;
+width: 347px;
+padding: 10px ;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 30px;
+background: #000;
+margin-top: 40px;
+margin-bottom: 80px;
+}
+
+.zoryana_btn_style2 span{
+color: #FFF;
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 27px */
+}
+
+p {
+font-size: 22px;
+font-family: Raleway;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+
+h1 {
+font-family: Raleway;
+font-size: 10em;
+font-style: normal;
+font-weight: 1000;
+line-height: normal;
+padding-top: 60px;
+padding-bottom: 40px;
+}
+
+
+
+.dosyagnennya span{
+font-family: Raleway;
+font-size: 52px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.foto img{ 
+width: 350px;
+height: 350px;
+border-radius: 350px;
+border: 1px solid #000;}
+
+  
+
+  .responsive-image {
+width: 308.638px;
+height: 485.92px;
+flex-shrink: 0;
+    }
+
+
+
+.portfolio p {padding-top: 1px; font-size: 20px;}
+
+h3 {
+font-family: Raleway;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 48px */
+}
+
+.poslugy {padding-top: 40px;}
+
+.poslugy h2 { margin-top: 30px; 
+margin-bottom: 30px;}
+
+.poslugy li {
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 30px */
+}
+
+.my_oval_botton {
+   display: inline-flex;
+height: 68px;
+padding: 10px 60px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 30px;
+border: 2px solid #000;
+background: #000;
+text-align: center; 
+margin: 0 auto; /* Для вирівнювання по горизонталі */
+  width: fit-content; /* Для того, щоб кнопка займала лише необхідний простір */
+}
+
+
+.my_oval_botton p {
+  color: #FFF;
+  margin: 0;
+/* H2 Bold */
+font-family: Raleway;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 48px */
+text-transform: uppercase;
+
+}
+
+
+
+footer {
+    width: 100%;
+flex-shrink: 0;
+background: #0F0F0F;
+}
+footer svg {
+margin: 5px;
+}
+
+footer  h3 {
+color: #FFF;
+font-family: Raleway;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 30px */
+padding-top: 30px !important;
+}
+
+footer p {
+    color: #FFF;
+}
+
+
+
+
+
+.druge_menu{background-color: white;}

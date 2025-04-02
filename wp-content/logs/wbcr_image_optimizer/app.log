@@ -1,0 +1,13 @@
+
+16-09-2023 12:59:01 [www.filipovs-consulting.com.ua][info] Parent plugin start installation!
+16-09-2023 12:59:01 [www.filipovs-consulting.com.ua][info] Plugin installation: try create plugin tables.
+																	-DB Version: 0
+																	-Plugin Version in DB: 0
+																	-Current Plugin Version: 1.6.5
+16-09-2023 12:59:01 [www.filipovs-consulting.com.ua][info] Parent plugin installation complete!
+-------------------------------
+16-09-2023 13:00:32 [www.filipovs-consulting.com.ua][info] Try to create backup directory. Backup dir: (/home/sv511379/filipovs-consulting.com.ua/www/wp-content/uploads/wio_backup)
+-------------------------------
+04-10-2023 15:05:42 [www.filipovs-consulting.com.ua][info] Parent plugin start deactivation!
+04-10-2023 15:05:42 [www.filipovs-consulting.com.ua][info] Parent plugin deactivation complete!
+-------------------------------

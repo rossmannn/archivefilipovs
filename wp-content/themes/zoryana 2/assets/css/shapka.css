@@ -1,0 +1,136 @@
+svg {
+  margin: 0 12px;
+}
+
+.style_pershemenu {
+  padding-top: 0px;
+  margin-bottom: 0px;
+  width: 100%;
+}
+.socseti {
+  margin-left: 80px;
+  padding-left: 60px;
+  padding-top: 60px;
+}
+.socseti {
+  display: flex;
+  gap: 10px; /* Між елементами можна додати відстань, налаштуйте за потребою */
+}
+
+.socseti a {
+  display: inline-flex;
+  align-items: center;
+}
+.zagolovok {
+  margin-left: 380px;
+  margin-top: 50px;
+}
+.telefon {
+  margin-top: 60px !important;
+}
+
+.telefon a {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 27px */
+  text-align: right;
+}
+
+.telefon {
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar svg {
+  margin: 0 12px;
+}
+
+#navbarTogglerDemo01 {
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+#navbarTogglerDemo01 li {
+  padding-left: 10px;
+  margin-right: 20px;
+}
+
+@media (min-width: 1200px) {
+  .desktop_version_menu {
+    margin-left: 150px;
+  }
+  .socseti {
+    padding-left: 60px !important;
+  }
+}
+#navbarTogglerDemo01 {
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+#navbarTogglerDemo01 li {
+  padding-left: 10px;
+  margin-right: 20px;
+}
+
+@media (max-width: 500px) {
+  .pershemenu {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .telefon svg {
+    margin-left: 40% !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .big_menu_zoryana_style svg {
+    display: none;
+  }
+}
+@media (min-width: 500px) {
+  .small_menu_zoryana_style {
+    display: none;
+  }
+  .pershemenu h1 {
+    font-size: 28px;
+  }
+  .telefon {
+    padding-right: 0;
+  }
+  .socseti {
+    margin-left: 20px;
+    margin-right: 0;
+    width: 100px;
+  }
+  svg {
+    margin: 0 5px;
+  }
+}
+
+@media (min-width: 700px) {
+  .pershemenu h1 {
+    font-size: 28px;
+  }
+  .telefon {
+    padding-right: 0;
+  }
+  .socseti {
+    margin-left: 20px;
+    margin-right: 0;
+  }
+  svg {
+    margin: 0 5px;
+  }
+}

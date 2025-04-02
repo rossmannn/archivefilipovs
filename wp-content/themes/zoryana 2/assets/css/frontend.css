@@ -1,0 +1,397 @@
+body {
+  font-family: Raleway;
+}
+html, body {
+    overflow-x: hidden; /* Заборона горизонтального скролу */
+     box-sizing: border-box; /* Враховує padding і border у ширині елемента */
+}
+
+/* стилі до шапки */
+
+.secondmenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.separator {
+  height: 1px;
+  background-color: #000;
+  width: 100%;
+}
+
+@media (min-width: 1200px) {
+    
+    
+ .container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+    
+  .secondmenu {
+    margin-left: 200px;
+  }
+  .header-phone-number {
+    margin-top: 30px;
+    margin-left: 90px;
+  }
+}
+.second-menu-ul li {
+  margin-left: 10px;
+}
+
+.second-menu li {
+  margin-right: 20px; /* Додаємо відступи між елементами */
+}
+
+.second-menu li:last-child {
+  margin-right: 0; /* Відміняємо відступ для останнього елемента */
+}
+
+.second-menu a {
+  text-decoration: none; /* Видаляємо підкреслення у посилань */
+  color: inherit; /* Встановлюємо колір тексту такий же, як у батьківського елемента */
+}
+
+.menu1 .col-md-3{
+    display: flex;
+    flex-direction: row;
+}
+
+.header-social-icons:last-child{
+margin-top: -40px;
+}
+.firstmenu .header-social-icons,
+.firstmenu .header-phone-number {
+  display: flex;
+  align-items: center;
+}
+
+.header-social-icons a,
+.firstmenu h2,
+.header-phone-number {
+  margin-right: 15px;
+}
+.header-social-icons {
+  padding: 0 10px;
+}
+
+.secondmenu .menu-item {
+  margin-right: 15px;
+}
+
+.menu1 .header-social-icons {
+  display: inline;
+}
+
+.site-name-header-first {
+  font-family: Raleway;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.telefon {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+ margin-top: 15px;
+}
+
+
+/* Загальний стиль для підменю */
+.second-menu-ul .dropdown-menu {
+  background-color: white; /* Білий фон для десктопу */
+  border: none; /* Забираємо рамку */
+  padding: 0; /* Відсутність відступів */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Легка тінь */
+}
+
+/* Стиль для пунктів підменю */
+.second-menu-ul .dropdown-menu .dropdown-item {
+  color: #333; /* Колір тексту */
+  padding: 10px 15px; /* Відступи всередині пунктів */
+  text-decoration: none; /* Без підкреслення */
+}
+
+.second-menu-ul .dropdown-menu .dropdown-item:hover {
+  background-color: #f8f9fa; /* Світло-сірий фон при наведенні */
+}
+
+/* Сірий фон для мобільної версії */
+@media (max-width: 991px) {
+  .second-menu-ul .dropdown-menu {
+    background-color: #e9ecef; /* Сірий фон */
+  }
+   .sm_block{
+       margin:0 20% ;
+   }
+   .text-center{
+        margin:0 25% ;
+   }
+}
+
+
+.second-menu-ul .menu-item-has-children:hover > .dropdown-menu {
+  display: block;
+}
+
+.second-menu-ul .dropdown-menu li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.second-menu-ul .dropdown-menu a {
+  display: block;
+  padding: 8px 15px;
+  text-decoration: none;
+  color: #333;
+  white-space: nowrap;
+}
+
+.second-menu-ul .dropdown-menu a:hover {
+  background-color: #f8f9fa;
+  color: #000;
+}
+
+
+/* кінець стилів до шапки */
+
+h1 {
+  font-family: Raleway;
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 61.05px;
+  text-align: left;
+}
+
+.h2description {
+  font-family: Raleway;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 48px;
+  text-align: left;
+}
+
+h2 {
+  font-family: Raleway;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  margin-bottom: 29px;
+}
+
+h3{
+      margin-bottom: 27px;
+}
+
+.zoryana_btn {
+  display: flex;
+  width: 347px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+  background: #000;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.zoryana_btn span {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.zoryana_btn:hover{
+    background: #353434;
+    color: #fff;
+}
+
+p {
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+
+.bignumber {
+  font-family: Raleway;
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 61.05px;
+  text-align: left;
+}
+ul li {
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+
+.rowfreespace {
+  margin-top: 3em;
+}
+
+.portfolioblock {
+  height: 100%;
+}
+
+
+
+/* стилі до блогу */
+
+.tag-link {
+  border: 1px solid #000;
+  border-radius: 20px;
+  color: #000;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.titleofpost {
+  text-decoration: none;
+  font-family: Raleway;
+  color: #000;
+}
+
+.mydatapost {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: left;
+}
+.mydatabox {
+  display: flex;
+  align-items: stretch;
+}
+.mydatasvg {
+  margin-top: -5px;
+  margin-right: 10px;
+}
+.post-date {
+  margin-top: -20px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  text-align: left;
+  font-weight: bold !important;
+}
+
+a {
+  text-decoration: none;
+  font-family: Raleway;
+  color: #000;
+}
+
+.category {
+  margin-top: 20px !important;
+}
+
+.tags {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mylastpost {
+  padding-top: 50px;
+}
+
+.blogpictureone img {
+  border-radius: 30px;
+}
+.blogpictureone {
+  border-radius: 1em;
+}
+
+.postpicture {
+  border-radius: 1em;
+}
+
+.postpicture img {
+  border-radius: 19px;
+}
+
+.atitle {
+  color: #000;
+}
+.ah {
+  font-family: Raleway;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.hhh {
+  font-family: Raleway;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+}
+
+.mypagination .page-numbers {
+  border: 1px solid black; /* Замініть 'black' на колір, який вам потрібен */
+  padding: 2px 15px; /* Налаштуйте відступи, які підходять для вас */
+  margin: 0 5px; /* Налаштуйте потрібний вам зовнішній відступ */
+  font-family: Raleway;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.mypagination a {
+  color: #000;
+}
+/* кінець стилів до блогу */
+
+/* стилі для футера */
+
+footer {
+  width: 100%;
+  flex-shrink: 0;
+  background: #0f0f0f;
+}
+footer svg {
+  margin: 5px;
+}
+
+footer h3 {
+  color: #fff;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+footer p {
+  color: #fff;
+}
+/* кінець стилів для футера */
+/* налаштування полів у вордпресі */
+      margin: 0 10%;
+
+.wp-block-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+

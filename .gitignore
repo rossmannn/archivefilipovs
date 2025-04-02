@@ -1,6 +1,22 @@
-# Ігноруємо всі файли у кореневій папці, крім .gitignore
-/*
-!.gitignore
+/*  # Ігноруємо всі файли та папки
+!/archivefilipovs/  # Але дозволяємо папку archivefilipovs/
 
-# Дозволяємо тільки папку archivefilipovs
-!/archivefilipovs/
+# Явно ігноруємо конкретні папки
+Applications/
+Desktop/
+Documents/
+Downloads/
+Library/
+Local Sites/
+Movies/
+Music/
+Pictures/
+Public/
+README.md
+Sites/
+example-app/
+hmeya/
+oldsite/
+testPHPclub/
+testYulia/
+wordpress/
