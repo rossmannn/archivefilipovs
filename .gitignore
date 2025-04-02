@@ -1,0 +1,6 @@
+# Ігноруємо всі файли у кореневій папці, крім .gitignore
+/*
+!.gitignore
+
+# Дозволяємо тільки папку archivefilipovs
+!/archivefilipovs/
